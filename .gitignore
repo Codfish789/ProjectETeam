@@ -1,0 +1,47 @@
+# ProjectE source code (main mod, not to be committed)
+ProjectE/
+
+# Eclipse IDE files
+eclipse/
+.classpath
+.project
+.settings/
+
+# IDEA IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle build output
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Minecraft run directory
+run/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Java class files
+*.class
+
+# Log files
+*.log
+
+# Archive files
+*.zip
+*.jar
+*.war
+*.tar.gz
+
+# MCP mappings/srg
+mcp/
+
+# ForgeGradle artifacts
+
+# IDE / Tool settings
+.claude/
+.vscode/
