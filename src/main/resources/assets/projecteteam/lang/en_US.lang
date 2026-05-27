@@ -1,0 +1,54 @@
+# ProjectE Team - English Localization
+
+pteam.help.syntax=/projecteteam <help|create|invite|accept|decline|kick|leave|disband|info>
+pteam.help.header=§6=== ProjectE Team Commands ===
+pteam.help.create=§e/projecteteam create <name> §7- Create a new team
+pteam.help.invite=§e/projecteteam invite <player> §7- Invite a player to your team
+pteam.help.accept=§e/projecteteam accept <team> §7- Accept a pending team invite
+pteam.help.decline=§e/projecteteam decline <team> §7- Decline a pending team invite
+pteam.help.kick=§e/projecteteam kick <player> §7- Kick a member from your team
+pteam.help.leave=§e/projecteteam leave §7- Leave your current team
+pteam.help.disband=§e/projecteteam disband §7- Disband your team (owner only)
+pteam.help.info=§e/projecteteam info §7- Display your team information
+pteam.command.playerOnly=Only players can use this command.
+
+pteam.create.usage=/projecteteam create <teamName>
+pteam.create.fail=Failed to create team. You may already be in a team, or the name is taken.
+pteam.create.success=Team '%s' created successfully!
+
+pteam.invite.usage=/projecteteam invite <playerName>
+pteam.invite.notInTeam=You are not in a team.
+pteam.invite.notOwner=Only the team owner can invite players.
+pteam.invite.playerNotFound=Player not found: %s
+pteam.invite.success=Invited %s to your team.
+pteam.invite.fail=Failed to invite %s. They may already be in a team.
+pteam.invite.notify=You have been invited to team '%s'. Use /projecteteam accept %s to join.
+
+pteam.accept.usage=/projecteteam accept <teamName>
+pteam.accept.teamNotFound=Team not found: %s
+pteam.accept.success=You have joined team '%s'!
+pteam.accept.notifyOwner=%s has joined your team.
+pteam.accept.fail=Failed to accept invite. You may not have a pending invite.
+
+pteam.decline.usage=/projecteteam decline <teamName>
+pteam.decline.success=Invite declined.
+pteam.decline.fail=No pending invite from that team.
+
+pteam.kick.usage=/projecteteam kick <playerName>
+pteam.kick.notOwner=Only the team owner can kick members.
+pteam.kick.success=Kicked %s from the team.
+pteam.kick.notify=You have been kicked from the team.
+pteam.kick.fail=Failed to kick %s.
+
+pteam.leave.success=You have left the team.
+pteam.leave.fail=You are not in a team.
+
+pteam.disband.notOwner=Only the team owner can disband the team.
+pteam.disband.success=Team '%s' disbanded.
+pteam.disband.notify=Team '%s' has been disbanded by the owner.
+
+pteam.info.notInTeam=You are not in a team.
+pteam.info.header=§6=== Team: %s ===
+pteam.info.owner=§eOwner: %s
+pteam.info.members=§eMembers (%d):
+pteam.info.pendingInvites=§7Pending invites: %d

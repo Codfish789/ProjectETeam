@@ -1,0 +1,45 @@
+# ProjectE Team - Spanish
+
+pteam.command.usage=Uso: /projecteteam %s
+pteam.command.playerOnly=Solo los jugadores pueden usar este comando.
+
+pteam.create.usage=/projecteteam create <nombre>
+pteam.create.fail=No se pudo crear el equipo. Ya estás en uno o el nombre está en uso.
+pteam.create.success=¡Equipo '%s' creado con éxito!
+
+pteam.invite.usage=/projecteteam invite <jugador>
+pteam.invite.notInTeam=No estás en ningún equipo.
+pteam.invite.notOwner=Solo el líder puede invitar jugadores.
+pteam.invite.playerNotFound=Jugador no encontrado: %s
+pteam.invite.success=Invitado %s a tu equipo.
+pteam.invite.fail=No se pudo invitar a %s. Puede que ya esté en un equipo.
+pteam.invite.notify=Has sido invitado al equipo '%s'. Usa /projecteteam accept %s para unirte.
+
+pteam.accept.usage=/projecteteam accept <nombre>
+pteam.accept.teamNotFound=Equipo no encontrado: %s
+pteam.accept.success=¡Te has unido al equipo '%s'!
+pteam.accept.notifyOwner=%s se ha unido a tu equipo.
+pteam.accept.fail=No se pudo aceptar la invitación. Sin invitación pendiente.
+
+pteam.decline.usage=/projecteteam decline <nombre>
+pteam.decline.success=Invitación rechazada.
+pteam.decline.fail=Sin invitación pendiente de ese equipo.
+
+pteam.kick.usage=/projecteteam kick <jugador>
+pteam.kick.notOwner=Solo el líder puede expulsar miembros.
+pteam.kick.success=%s expulsado del equipo.
+pteam.kick.notify=Has sido expulsado del equipo.
+pteam.kick.fail=No se pudo expulsar a %s.
+
+pteam.leave.success=Has dejado el equipo.
+pteam.leave.fail=No estás en ningún equipo.
+
+pteam.disband.notOwner=Solo el líder puede disolver el equipo.
+pteam.disband.success=Equipo '%s' disuelto.
+pteam.disband.notify=El equipo '%s' ha sido disuelto por el líder.
+
+pteam.info.notInTeam=No estás en ningún equipo.
+pteam.info.header=§6=== Equipo: %s ===
+pteam.info.owner=§eLíder: %s
+pteam.info.members=§eMiembros (%d):
+pteam.info.pendingInvites=§7Invitaciones pendientes: %d

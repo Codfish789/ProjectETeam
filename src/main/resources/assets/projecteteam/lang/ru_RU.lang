@@ -1,0 +1,45 @@
+# ProjectE Team - Russian
+
+pteam.command.usage=Использование: /projecteteam %s
+pteam.command.playerOnly=Только игроки могут использовать эту команду.
+
+pteam.create.usage=/projecteteam create <название>
+pteam.create.fail=Не удалось создать команду. Возможно, вы уже в команде или имя занято.
+pteam.create.success=Команда '%s' создана!
+
+pteam.invite.usage=/projecteteam invite <игрок>
+pteam.invite.notInTeam=Вы не состоите в команде.
+pteam.invite.notOwner=Только владелец может приглашать игроков.
+pteam.invite.playerNotFound=Игрок не найден: %s
+pteam.invite.success=%s приглашён в вашу команду.
+pteam.invite.fail=Не удалось пригласить %s. Возможно, он уже в команде.
+pteam.invite.notify=Вас пригласили в команду '%s'. Используйте /projecteteam accept %s чтобы присоединиться.
+
+pteam.accept.usage=/projecteteam accept <название>
+pteam.accept.teamNotFound=Команда не найдена: %s
+pteam.accept.success=Вы присоединились к команде '%s'!
+pteam.accept.notifyOwner=%s присоединился к вашей команде.
+pteam.accept.fail=Не удалось принять приглашение. Возможно, у вас нет ожидающих приглашений.
+
+pteam.decline.usage=/projecteteam decline <название>
+pteam.decline.success=Приглашение отклонено.
+pteam.decline.fail=Нет ожидающих приглашений от этой команды.
+
+pteam.kick.usage=/projecteteam kick <игрок>
+pteam.kick.notOwner=Только владелец может исключать участников.
+pteam.kick.success=%s исключён из команды.
+pteam.kick.notify=Вас исключили из команды.
+pteam.kick.fail=Не удалось исключить %s.
+
+pteam.leave.success=Вы покинули команду.
+pteam.leave.fail=Вы не состоите в команде.
+
+pteam.disband.notOwner=Только владелец может распустить команду.
+pteam.disband.success=Команда '%s' распущена.
+pteam.disband.notify=Команда '%s' распущена владельцем.
+
+pteam.info.notInTeam=Вы не состоите в команде.
+pteam.info.header=§6=== Команда: %s ===
+pteam.info.owner=§eВладелец: %s
+pteam.info.members=§eУчастники (%d):
+pteam.info.pendingInvites=§7Ожидающие приглашения: %d

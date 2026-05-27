@@ -1,16 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "ProjectETeam",
+  "name": "ProjectE Team",
+  "description": "ProjectE addon that adds team functionality. Share EMC and item knowledge with teammates. Create teams, invite players, and manage members.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+  "authorList": ["Codfish789"],
+  "credits": "ProjectE by moze_intel; Minecraft Forge and FML",
+  "dependencies": ["ProjectE"]
 }
 ]

@@ -1,0 +1,45 @@
+# ProjectE Team - French
+
+pteam.command.usage=Utilisation : /projecteteam %s
+pteam.command.playerOnly=Seuls les joueurs peuvent utiliser cette commande.
+
+pteam.create.usage=/projecteteam create <nom>
+pteam.create.fail=Impossible de créer l'équipe. Vous êtes déjà dans une équipe ou le nom est pris.
+pteam.create.success=Équipe '%s' créée avec succès !
+
+pteam.invite.usage=/projecteteam invite <joueur>
+pteam.invite.notInTeam=Vous n'êtes dans aucune équipe.
+pteam.invite.notOwner=Seul le chef d'équipe peut inviter des joueurs.
+pteam.invite.playerNotFound=Joueur introuvable : %s
+pteam.invite.success=%s invité dans votre équipe.
+pteam.invite.fail=Impossible d'inviter %s. Est peut-être déjà dans une équipe.
+pteam.invite.notify=Vous avez été invité dans l'équipe '%s'. Utilisez /projecteteam accept %s pour rejoindre.
+
+pteam.accept.usage=/projecteteam accept <nom>
+pteam.accept.teamNotFound=Équipe introuvable : %s
+pteam.accept.success=Vous avez rejoint l'équipe '%s' !
+pteam.accept.notifyOwner=%s a rejoint votre équipe.
+pteam.accept.fail=Impossible d'accepter l'invitation. Aucune invitation en attente.
+
+pteam.decline.usage=/projecteteam decline <nom>
+pteam.decline.success=Invitation refusée.
+pteam.decline.fail=Aucune invitation en attente de cette équipe.
+
+pteam.kick.usage=/projecteteam kick <joueur>
+pteam.kick.notOwner=Seul le chef d'équipe peut expulser des membres.
+pteam.kick.success=%s expulsé de l'équipe.
+pteam.kick.notify=Vous avez été expulsé de l'équipe.
+pteam.kick.fail=Impossible d'expulser %s.
+
+pteam.leave.success=Vous avez quitté l'équipe.
+pteam.leave.fail=Vous n'êtes dans aucune équipe.
+
+pteam.disband.notOwner=Seul le chef peut dissoudre l'équipe.
+pteam.disband.success=Équipe '%s' dissoute.
+pteam.disband.notify=L'équipe '%s' a été dissoute par le chef.
+
+pteam.info.notInTeam=Vous n'êtes dans aucune équipe.
+pteam.info.header=§6=== Équipe : %s ===
+pteam.info.owner=§eChef : %s
+pteam.info.members=§eMembres (%d) :
+pteam.info.pendingInvites=§7Invitations en attente : %d

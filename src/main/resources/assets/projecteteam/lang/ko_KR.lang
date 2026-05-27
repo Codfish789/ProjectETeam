@@ -1,0 +1,45 @@
+# ProjectE Team - Korean
+
+pteam.command.usage=사용법: /projecteteam %s
+pteam.command.playerOnly=플레이어만 사용할 수 있습니다.
+
+pteam.create.usage=/projecteteam create <팀이름>
+pteam.create.fail=팀을 만들 수 없습니다. 이미 팀에 속해 있거나 이름이 사용 중입니다.
+pteam.create.success=팀 '%s' 생성 완료!
+
+pteam.invite.usage=/projecteteam invite <플레이어>
+pteam.invite.notInTeam=팀에 속해 있지 않습니다.
+pteam.invite.notOwner=팀장만 초대할 수 있습니다.
+pteam.invite.playerNotFound=플레이어를 찾을 수 없습니다: %s
+pteam.invite.success=%s 님을 팀에 초대했습니다.
+pteam.invite.fail=%s 님 초대 실패. 이미 팀에 속해 있을 수 있습니다.
+pteam.invite.notify=팀 '%s'에 초대되었습니다. /projecteteam accept %s 로 참가하세요.
+
+pteam.accept.usage=/projecteteam accept <팀이름>
+pteam.accept.teamNotFound=팀을 찾을 수 없습니다: %s
+pteam.accept.success=팀 '%s'에 참가했습니다!
+pteam.accept.notifyOwner=%s 님이 팀에 참가했습니다.
+pteam.accept.fail=초대 수락 실패. 보류 중인 초대가 없을 수 있습니다.
+
+pteam.decline.usage=/projecteteam decline <팀이름>
+pteam.decline.success=초대를 거절했습니다.
+pteam.decline.fail=해당 팀의 보류 중인 초대가 없습니다.
+
+pteam.kick.usage=/projecteteam kick <플레이어>
+pteam.kick.notOwner=팀장만 추방할 수 있습니다.
+pteam.kick.success=%s 님을 팀에서 추방했습니다.
+pteam.kick.notify=팀에서 추방되었습니다.
+pteam.kick.fail=%s 님 추방 실패.
+
+pteam.leave.success=팀을 떠났습니다.
+pteam.leave.fail=팀에 속해 있지 않습니다.
+
+pteam.disband.notOwner=팀장만 팀을 해산할 수 있습니다.
+pteam.disband.success=팀 '%s' 해산 완료.
+pteam.disband.notify=팀 '%s'이 팀장에 의해 해산되었습니다.
+
+pteam.info.notInTeam=팀에 속해 있지 않습니다.
+pteam.info.header=§6=== 팀: %s ===
+pteam.info.owner=§e팀장: %s
+pteam.info.members=§e멤버 (%d):
+pteam.info.pendingInvites=§7보류 중인 초대: %d

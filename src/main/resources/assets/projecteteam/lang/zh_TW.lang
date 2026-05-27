@@ -1,0 +1,45 @@
+# ProjectE Team - Traditional Chinese
+
+pteam.command.usage=用法: /projecteteam %s
+pteam.command.playerOnly=只有玩家可以使用此命令。
+
+pteam.create.usage=/projecteteam create <隊伍名>
+pteam.create.fail=創建隊伍失敗。你可能已在隊伍中，或名稱已被佔用。
+pteam.create.success=隊伍 '%s' 創建成功！
+
+pteam.invite.usage=/projecteteam invite <玩家名>
+pteam.invite.notInTeam=你不在任何隊伍中。
+pteam.invite.notOwner=只有隊長才能邀請玩家。
+pteam.invite.playerNotFound=未找到玩家: %s
+pteam.invite.success=已邀請 %s 加入你的隊伍。
+pteam.invite.fail=邀請 %s 失敗。對方可能已在隊伍中。
+pteam.invite.notify=你已被邀請加入隊伍 '%s'。使用 /projecteteam accept %s 加入。
+
+pteam.accept.usage=/projecteteam accept <隊伍名>
+pteam.accept.teamNotFound=未找到隊伍: %s
+pteam.accept.success=你已加入隊伍 '%s'！
+pteam.accept.notifyOwner=%s 加入了你的隊伍。
+pteam.accept.fail=接受邀請失敗。你可能沒有待處理的邀請。
+
+pteam.decline.usage=/projecteteam decline <隊伍名>
+pteam.decline.success=已拒絕邀請。
+pteam.decline.fail=沒有來自該隊伍的待處理邀請。
+
+pteam.kick.usage=/projecteteam kick <玩家名>
+pteam.kick.notOwner=只有隊長才能踢出成員。
+pteam.kick.success=已將 %s 踢出隊伍。
+pteam.kick.notify=你已被踢出隊伍。
+pteam.kick.fail=踢出 %s 失敗。
+
+pteam.leave.success=你已離開隊伍。
+pteam.leave.fail=你不在任何隊伍中。
+
+pteam.disband.notOwner=只有隊長才能解散隊伍。
+pteam.disband.success=隊伍 '%s' 已解散。
+pteam.disband.notify=隊伍 '%s' 已被隊長解散。
+
+pteam.info.notInTeam=你不在任何隊伍中。
+pteam.info.header=§6=== 隊伍: %s ===
+pteam.info.owner=§e隊長: %s
+pteam.info.members=§e成員 (%d):
+pteam.info.pendingInvites=§7待處理邀請: %d

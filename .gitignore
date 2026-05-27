@@ -16,7 +16,6 @@ eclipse/
 # Gradle build output
 build/
 .gradle/
-!gradle/wrapper/gradle-wrapper.jar
 
 # Minecraft run directory
 run/
@@ -31,16 +30,23 @@ Thumbs.db
 # Log files
 *.log
 
-# Archive files
+# Archive files (keep gradle wrapper jar)
 *.zip
-*.jar
 *.war
 *.tar.gz
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
 
 # MCP mappings/srg
 mcp/
 
+# Local Gradle installation
+gradle-local/
+
 # ForgeGradle artifacts
+
+# Custom SSL truststore (local workaround)
+cacerts-with-gtnh
 
 # IDE / Tool settings
 .claude/

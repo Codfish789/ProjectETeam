@@ -1,0 +1,45 @@
+# ProjectE Team - Japanese
+
+pteam.command.usage=使い方: /projecteteam %s
+pteam.command.playerOnly=プレイヤーのみ使用できます。
+
+pteam.create.usage=/projecteteam create <チーム名>
+pteam.create.fail=チームを作成できません。既にチームに所属しているか、名前が使用されています。
+pteam.create.success=チーム '%s' を作成しました！
+
+pteam.invite.usage=/projecteteam invite <プレイヤー名>
+pteam.invite.notInTeam=チームに所属していません。
+pteam.invite.notOwner=チーム所有者のみ招待できます。
+pteam.invite.playerNotFound=プレイヤーが見つかりません: %s
+pteam.invite.success=%s をチームに招待しました。
+pteam.invite.fail=%s の招待に失敗しました。既にチームに所属している可能性があります。
+pteam.invite.notify=チーム '%s' に招待されました。/projecteteam accept %s で参加してください。
+
+pteam.accept.usage=/projecteteam accept <チーム名>
+pteam.accept.teamNotFound=チームが見つかりません: %s
+pteam.accept.success=チーム '%s' に参加しました！
+pteam.accept.notifyOwner=%s がチームに参加しました。
+pteam.accept.fail=招待の承認に失敗しました。保留中の招待がない可能性があります。
+
+pteam.decline.usage=/projecteteam decline <チーム名>
+pteam.decline.success=招待を拒否しました。
+pteam.decline.fail=そのチームからの保留中の招待はありません。
+
+pteam.kick.usage=/projecteteam kick <プレイヤー名>
+pteam.kick.notOwner=チーム所有者のみキックできます。
+pteam.kick.success=%s をチームからキックしました。
+pteam.kick.notify=チームからキックされました。
+pteam.kick.fail=%s のキックに失敗しました。
+
+pteam.leave.success=チームを脱退しました。
+pteam.leave.fail=チームに所属していません。
+
+pteam.disband.notOwner=チーム所有者のみ解散できます。
+pteam.disband.success=チーム '%s' を解散しました。
+pteam.disband.notify=チーム '%s' が所有者によって解散されました。
+
+pteam.info.notInTeam=チームに所属していません。
+pteam.info.header=§6=== チーム: %s ===
+pteam.info.owner=§e所有者: %s
+pteam.info.members=§eメンバー (%d):
+pteam.info.pendingInvites=§7保留中の招待: %d

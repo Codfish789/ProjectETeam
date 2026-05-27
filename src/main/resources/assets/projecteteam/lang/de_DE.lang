@@ -1,0 +1,45 @@
+# ProjectE Team - German
+
+pteam.command.usage=Verwendung: /projecteteam %s
+pteam.command.playerOnly=Nur Spieler können diesen Befehl nutzen.
+
+pteam.create.usage=/projecteteam create <Teamname>
+pteam.create.fail=Team konnte nicht erstellt werden. Du bist bereits in einem Team oder der Name ist vergeben.
+pteam.create.success=Team '%s' erfolgreich erstellt!
+
+pteam.invite.usage=/projecteteam invite <Spieler>
+pteam.invite.notInTeam=Du bist in keinem Team.
+pteam.invite.notOwner=Nur der Teamleiter kann Spieler einladen.
+pteam.invite.playerNotFound=Spieler nicht gefunden: %s
+pteam.invite.success=%s wurde in dein Team eingeladen.
+pteam.invite.fail=Einladung von %s fehlgeschlagen. Ist bereits in einem Team.
+pteam.invite.notify=Du wurdest in Team '%s' eingeladen. Nutze /projecteteam accept %s zum Beitreten.
+
+pteam.accept.usage=/projecteteam accept <Teamname>
+pteam.accept.teamNotFound=Team nicht gefunden: %s
+pteam.accept.success=Du bist Team '%s' beigetreten!
+pteam.accept.notifyOwner=%s ist deinem Team beigetreten.
+pteam.accept.fail=Einladung konnte nicht angenommen werden. Keine ausstehende Einladung.
+
+pteam.decline.usage=/projecteteam decline <Teamname>
+pteam.decline.success=Einladung abgelehnt.
+pteam.decline.fail=Keine ausstehende Einladung von diesem Team.
+
+pteam.kick.usage=/projecteteam kick <Spieler>
+pteam.kick.notOwner=Nur der Teamleiter kann Mitglieder entfernen.
+pteam.kick.success=%s wurde aus dem Team entfernt.
+pteam.kick.notify=Du wurdest aus dem Team entfernt.
+pteam.kick.fail=Konnte %s nicht entfernen.
+
+pteam.leave.success=Du hast das Team verlassen.
+pteam.leave.fail=Du bist in keinem Team.
+
+pteam.disband.notOwner=Nur der Teamleiter kann das Team auflösen.
+pteam.disband.success=Team '%s' aufgelöst.
+pteam.disband.notify=Team '%s' wurde vom Leiter aufgelöst.
+
+pteam.info.notInTeam=Du bist in keinem Team.
+pteam.info.header=§6=== Team: %s ===
+pteam.info.owner=§eLeiter: %s
+pteam.info.members=§eMitglieder (%d):
+pteam.info.pendingInvites=§7Ausstehende Einladungen: %d
