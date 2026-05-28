@@ -199,6 +199,10 @@ public class TeamManager
             if (player != null)
             {
                 Transmutation.setEmc(player, share);
+                if (player.openContainer instanceof TransmutationContainer)
+                {
+                    ((TransmutationContainer) player.openContainer).transmutationInventory.emc = share;
+                }
                 if (Config.knowledgeDistributionMode == Config.KNOWLEDGE_MODE_CLEAR)
                 {
                     Transmutation.clearKnowledge(player);
@@ -274,6 +278,10 @@ public class TeamManager
             Transmutation.setEmc(member, pool);
             memberEmcBaselines.put(memberUUID, pool);
             Transmutation.sync(member);
+            if (member.openContainer instanceof TransmutationContainer)
+            {
+                ((TransmutationContainer) member.openContainer).transmutationInventory.emc = pool;
+            }
             PacketHandler.sendTo(guiPacket, member);
         }
     }
@@ -417,6 +425,10 @@ public class TeamManager
         double pool = team.getSharedEmc();
         Transmutation.setEmc(player, pool);
         memberEmcBaselines.put(uuid, pool);
+        if (player.openContainer instanceof TransmutationContainer)
+        {
+            ((TransmutationContainer) player.openContainer).transmutationInventory.emc = pool;
+        }
 
         // Catch up on knowledge from other online members
         suppressEventSync = true;

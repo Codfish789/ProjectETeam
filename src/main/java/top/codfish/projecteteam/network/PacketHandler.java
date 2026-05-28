@@ -8,15 +8,23 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.network.Packet;
 import top.codfish.projecteteam.network.packets.SyncTeamDataPKT;
 import top.codfish.projecteteam.network.packets.SyncTransmutationPKT;
+import top.codfish.projecteteam.network.packets.SyncTransmutationPKTHandler;
+import top.codfish.projecteteam.network.packets.SyncTransmutationPKTServerHandler;
 
 public class PacketHandler
 {
     private static final SimpleNetworkWrapper HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("projecteteam");
 
-    public static void register()
+    public static void registerCommon()
     {
         HANDLER.registerMessage(SyncTeamDataPKT.Handler.class, SyncTeamDataPKT.class, 0, Side.CLIENT);
-        HANDLER.registerMessage(SyncTransmutationPKT.Handler.class, SyncTransmutationPKT.class, 1, Side.CLIENT);
+        // Register discriminator 1 on server side so sendTo() works, but handler does nothing
+        HANDLER.registerMessage(SyncTransmutationPKTServerHandler.class, SyncTransmutationPKT.class, 1, Side.SERVER);
+    }
+
+    public static void registerClient()
+    {
+        HANDLER.registerMessage(SyncTransmutationPKTHandler.class, SyncTransmutationPKT.class, 1, Side.CLIENT);
     }
 
     public static Packet getMCPacket(IMessage message)

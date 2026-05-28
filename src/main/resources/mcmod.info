@@ -5,10 +5,10 @@
   "description": "ProjectE addon that adds team functionality. Share EMC and item knowledge with teammates. Create teams, invite players, and manage members.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/Codfish789/ProjectETeam",
   "updateUrl": "",
   "authorList": ["Codfish789"],
-  "credits": "ProjectE by moze_intel; Minecraft Forge and FML",
+  "credits": "ProjectE by moze_intel",
   "dependencies": ["ProjectE"]
 }
 ]

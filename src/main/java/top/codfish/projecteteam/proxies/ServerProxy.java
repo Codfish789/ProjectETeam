@@ -8,6 +8,9 @@ import top.codfish.projecteteam.team.TeamData;
 public class ServerProxy implements IProxy
 {
     @Override
+    public void registerClientPackets() {}
+
+    @Override
     public void registerClientOnlyEvents() {}
 
     @Override

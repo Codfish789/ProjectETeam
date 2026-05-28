@@ -53,7 +53,7 @@ team {
 
 1. Place `ProjectE-1.7.10-PE1.10.1.jar` in the project root
 2. Run `./gradlew build` (requires JDK 8 and Gradle 4.4.1)
-3. Output: `build/libs/ProjectETeam-1.0.jar`
+3. Output: `build/libs/ProjectETeam-1.1.jar`
 
 ```
 ./gradlew setupDecompWorkspace
@@ -62,4 +62,5 @@ team {
 
 ## License
 
-This project is provided as-is. ProjectE is developed by moze_intel.
+This project is licensed under the [MIT License](LICENSE).  
+[ProjectE](https://github.com/sinkillerj/ProjectE) is developed by moze_intel.

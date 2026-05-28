@@ -7,6 +7,7 @@ import top.codfish.projecteteam.team.TeamData;
 
 public interface IProxy
 {
+    void registerClientPackets();
     void registerClientOnlyEvents();
     void updateClientTeamData(TeamData team, Map<UUID, String> memberNames);
 }

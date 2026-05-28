@@ -20,7 +20,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.0"
+version = "1.1"
 group = "top.codfish.projecteteam"
 archivesBaseName = "ProjectETeam"
 
